@@ -1,0 +1,46 @@
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    width:320px;
+    border:1px solid black;
+    padding: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    
+}
+h1{
+    color:green;
+}
+input:first-child{
+    
+    margin-bottom: 20px;
+}
+input{
+    height: 50px;
+}
+.btn{
+    display: flex;
+    width: 180px;
+    
+    justify-content: space-between;
+    
+}
+button{
+    margin-top: 20px;
+    width: 75px;
+    height: 38px;
+    background-color: white;
+    border: 0;
+    border:1px solid black;
+    cursor: pointer;
+
+}
+button:first-child{
+    background-color: green;
+    color:white;
+}
